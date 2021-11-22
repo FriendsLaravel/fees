@@ -22,6 +22,6 @@ class Fees extends Model
     }
 
     public function calculator($amount): int{
-       return $amount * ($this->amount/100 - 1);
+       return $amount * $this->amount/100;
     }
 }
