@@ -1,0 +1,25 @@
+{
+    "name": "fol/fees",
+    "autoload": {
+        "psr-4": {
+            "Fol\\Fees\\": "src/"
+        },
+        "files": [
+            "src/Http/Helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Chokri ghanmi",
+            "email": "chokri.ghanmi@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fol\\Fees\\FeesServiceProvider"
+            ]
+        }
+    }
+}
