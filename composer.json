@@ -1,5 +1,5 @@
 {
-    "name": "FriendsLaravel/fees",
+    "name": "friendslaravel/fees",
     "autoload": {
         "psr-4": {
             "Fol\\Fees\\": "src/"
